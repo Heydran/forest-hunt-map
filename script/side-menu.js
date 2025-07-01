@@ -2,6 +2,7 @@ import { loadGreatMarkers } from "./great_chaparral.js";
 import { loadAlamoMarkers } from "./alamo_sea.js";
 import { loadLumberMarkers } from "./lumber-yard.js";
 import { loadPowerMarkers } from "./power-station.js";
+import { loadRatonMarkers } from "./raton_canyon.js";
 
 // loadGreatMarkers();
 // loadAlamoMarkers();
@@ -13,6 +14,7 @@ const menuItens = [
   { label: "Alamo", function: loadAlamoMarkers },
   { label: "Lumber Yard", function: loadLumberMarkers },
   { label: "Power Station", function: loadPowerMarkers },
+  { label: "Raton Canyon", function: loadRatonMarkers },
 ];
 
 function clearMap() {
