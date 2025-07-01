@@ -1,0 +1,39 @@
+
+
+#main-container {
+	display: flex;
+}
+
+#menu-container {
+	width: 300px;
+	background-color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+#map-container {
+  width: 750px;
+  height: 750px;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.box-marker {
+  width: 15px;
+  height: 15px;
+  background-image: url('../assets/box-marker.png'); /* caminho relativo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
