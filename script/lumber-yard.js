@@ -5,6 +5,7 @@ const markers = [
   { x: 431, y: 192, marked: false },
   { x: 377, y: 418, marked: false },
   { x: 261, y: 428, marked: false },
+  { x: 401, y: 533, marked: false },
 ];
 
 function loadLumberMarkers() {
