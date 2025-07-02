@@ -7,6 +7,9 @@ const markers = [
   { x: 494, y: 315, marked: false },
   { x: 288, y: 285, marked: false },
   { x: 253, y: 400, marked: false },
+  { x: 251, y: 515, marked: false },
+  { x: 515, y: 391, marked: false },
+  { x: 348, y: 310, marked: false },
 ];
 
 function loadPowerMarkers() {
