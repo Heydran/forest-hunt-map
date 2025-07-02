@@ -9,6 +9,7 @@ const markers = [
   { x: 425, y: 169, marked: false },
   { x: 412, y: 359, marked: false },
   { x: 328, y: 351, marked: false },
+  { x: 373, y: 462, marked: false },
 ];
 
 function loadGreatMarkers() {
